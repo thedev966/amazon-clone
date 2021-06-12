@@ -1,0 +1,113 @@
+.login {
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__logo {
+  margin-top: 10px 0;
+  object-fit: contain;
+  width: 180px;
+}
+
+.login__form {
+  width: 360px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 25px;
+  border: 1px solid lightgray;
+}
+
+.login__form__header {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.login__form__item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+
+.login__form__item > label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.login__form__item > input {
+  height: 30px;
+  background-color: #fff;
+  width: 98%;
+  outline: none;
+  border: 1px solid rgb(141, 140, 140);
+  box-shadow: inset 0 0 1px rgb(196, 196, 196);
+  border-radius: 4px;
+  padding: 0 10px;
+}
+
+.login__form__loginBtn {
+  background-color: #f0c14b;
+  border-radius: 4px;
+  width: 100%;
+  height: 30px;
+  margin-top: 8px;
+  outline: none;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  cursor: pointer;
+}
+
+.login__form__conditions {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 18px;
+  margin: 12px 0;
+}
+
+.login__form__registerBtn {
+  background-color: rgb(238, 238, 238);
+  border-radius: 4px;
+  width: 100%;
+  height: 30px;
+  margin-top: 8px;
+  outline: none;
+  border: 1px solid;
+  border-color: darkgray;
+  cursor: pointer;
+}
+
+.login__form__registerInfo {
+  width: 100%;
+  text-align: center;
+  color: rgb(158, 158, 158);
+  font-size: 12px;
+  font-weight: 700;
+  border-bottom: 1px solid lightgray;
+  line-height: 0.1em;
+  margin: 10px 0 12px;
+}
+
+.login__form__registerInfo > span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+.login__form__messages {
+  background-color: #ff0033;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: none;
+}
+
+.errors_active {
+  display: block;
+}

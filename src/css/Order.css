@@ -1,0 +1,31 @@
+.order {
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+
+.order__id,
+.order__date,
+.order__items,
+.order__total {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.order__title {
+  flex: 0.3;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.order__content {
+  flex: 0.5;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.order__id > h3 {
+  margin-right: 20px;
+}
